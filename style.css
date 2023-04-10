@@ -359,6 +359,7 @@ main .sobre {
     max-width: 300px;
     background-color: #222;
     height: 500px;
+    width: 100vw;
 }
 
 .my_services li i {
@@ -381,6 +382,11 @@ main .sobre {
 .my_services li p {
     color: #707070;
     font-size: 1.2rem;
+}
+
+.my_services li p span {
+    color: #707070;
+    font-size: 3.2rem;
 }
 
 .my_services li::before {
